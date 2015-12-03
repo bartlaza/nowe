@@ -1,16 +1,17 @@
 //Plik: main.cpp
 #include "nazwaPliku.hpp"
-//funkcja g≥Ûwna -------------
+zmiana
+//funkcja g≈Ç√≥wna -------------
 int main()
 {
     using std::cout;
     using std::cin;
-    //tworzenie obiektÛw struktur
+    //tworzenie obiekt√≥w struktur
     BokiTrojkata wprowadzDane;
     WynikiTrojkata wyswietl;
    
     cout << "Wprowadz dana bokow a, b i c: ";
-    //sprytny sposÛb wprowadzania danych
+    //sprytny spos√≥b wprowadzania danych
     while( cin >> wprowadzDane.bokA >> wprowadzDane.bokB >> wprowadzDane.bokC )
     {
         wyswietl = TwierdzeniePitagorasa( wprowadzDane );
